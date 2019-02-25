@@ -1,0 +1,4 @@
+michael: 
+  name: Test Tarou
+  email: hoge@fuga.com
+  password_digest: <%= User.digest('password') %>
